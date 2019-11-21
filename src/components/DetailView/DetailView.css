@@ -1,0 +1,42 @@
+@value c-app-bg from '../Constants.css';
+
+.DetailView {
+  display: block;
+}
+
+.SongDetail {
+  display: block;
+}
+
+.SongDetailStar {
+  fill: #fff;
+  filter: url(#starGlowFilter);
+}
+
+.SongTimelineAxis--line, .SongTimelineAxis--line__axistick {
+  fill: c-app-bg;
+}
+
+.SongTimelineAxis__firsttick {
+  stroke: white;
+  fill: white;
+}
+
+.SongTimelineAxis--label {
+  alignment-baseline: before-edge;
+  fill: white;
+  font-size: 14px;
+  font-weight: 500;
+  opacity: 0.5;
+  stroke: none;
+  text-anchor: middle;
+}
+
+.SongTimeline--energytail {
+  fill: url(#energyTailFade);
+}
+
+.SongTimeline--planet__shadow {
+  fill: #000;
+  opacity: 0.25;
+}
