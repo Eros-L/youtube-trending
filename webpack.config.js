@@ -103,7 +103,8 @@ var webpackConfig = {
       new HtmlWebpackPlugin({
         title: packageJson.name,
         template: "src/index.html",
-        favicon: "src/assets/ixt_favicon-32.png",
+        favicon: "youtube-logo.png",
+        // favicon: "src/assets/ixt_favicon-32.png",
         inject: "body",
         description: packageJson.description,
         version: packageJson.version

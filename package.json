@@ -1,7 +1,7 @@
 {
-  "name": "galaxy-of-covers",
-  "version": "1.0.2",
-  "description": "Honoring the evolution of the 50 most popular cover songs of all time.",
+  "name": "youtube-trending",
+  "version": "0.0.1",
+  "description": "Exploring what is trending on YouTube.",
   "private": true,
   "license": "BSD-3-Clause",
   "main": "index.html",
@@ -72,5 +72,5 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "repository": "https://github.com/interactivethings/galaxy-of-covers"
+  "repository": "https://github.com/Eros-L/youtube-trending"
 }
