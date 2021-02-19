@@ -1,0 +1,19 @@
+
+.CountryArea {
+  fill: #bbb;
+  stroke: #eee;
+  stroke-width: 0.5px;
+  opacity: 0.25;
+}
+
+.CountryLabel {
+  alignment-baseline: central;
+  fill: #ddd;
+  font-size: 20px;
+  text-shadow: 0.1em -0.1em 0.25em #282832;
+  font-weight: 200;
+  stroke: none;
+  text-anchor: middle;
+  display: none;
+  user-select: none;
+}

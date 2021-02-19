@@ -1,0 +1,22 @@
+@value c-header-bg #B31217;
+@value c-app-bg #282832;
+
+.half-opaque-white {
+  color: #fff;
+  fill: #fff;
+  opacity: 0.8;
+}
+
+.AppHeaderIcon {
+  composes: half-opaque-white;
+  line-height: 1.2em;
+  vertical-align: middle;
+}
+
+@value z-header 1;
+@value z-nav 2;
+@value z-about 3;
+
+@value bp-stacked 850px;
+
+@custom-media --narrow-view (max-width: 850px);

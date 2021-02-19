@@ -1,0 +1,67 @@
+@value c-header-bg from '../Constants.css';
+@value z-header, z-nav from '../Constants.css';
+
+.AppHeader {
+  box-sizing: border-box;
+  font-size: 24px;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: z-header;
+}
+
+.AppHeader--navigation {
+  background-color: c-header-bg;
+  clear: fix;
+  padding: 0.62em 0;
+  position: relative;
+  user-select: none;
+  z-index: z-nav;
+}
+
+@media (--narrow-view) {
+  .AppHeader--navigation {
+    padding-bottom: 0;
+  }
+}
+
+.AppHeader--back {
+  display: inline-block;
+  float: left;
+  cursor: pointer;
+  display: inline-block;
+  margin: 0em 1em;
+}
+
+@media (--narrow-view) {
+  .AppHeader--back {
+    float: none;
+  }
+}
+
+.appheaderbackarrow {
+  composes: AppHeaderIcon from '../Constants.css';
+  display: inline-block;
+  margin-right: 0.8em;
+}
+
+.AppHeader--title {
+  color: white;
+  display: inline-block;
+  font-size: 1em;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 1.2em;
+  margin: 0;
+  vertical-align: middle;
+}
+
+.AppHeaderAboutShareIcon {
+  color: white;
+  display: inline-block;
+  float: right;
+  line-height: 1.2em;
+  margin: 0em 1em;
+  vertical-align: middle;
+}
